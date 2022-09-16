@@ -385,7 +385,7 @@ img{
 #footer{background-color:#eee;}
 #footer .footer{
     min-height: 200px;
-    flex-direction: row;
+    flex-direction: column;
     display: flex;
     padding-top: 50px;
     padding-bottom: 10px;

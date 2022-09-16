@@ -392,7 +392,8 @@ img{
 }
 
 .social-icon{
-    display: inline;
+    display:flex;
+    flex-direction: row;
 }
 /* end of footer */
 

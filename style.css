@@ -197,6 +197,7 @@ img{
     background-color: crimson;
 }
 /* END OF HERO SECTION */
+
 /* START OF SERVICE SECTION  */
 #services .service container{
     flex-direction: column;
@@ -384,7 +385,7 @@ img{
 #footer{background-color:#eee;}
 #footer .footer{
     min-height: 200px;
-    flex-direction: column;
+    flex-direction: row;
     display: flex;
     padding-top: 50px;
     padding-bottom: 10px;

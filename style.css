@@ -383,10 +383,10 @@ img{
 }
 /* footer section */
 #footer{background-color:#eee;}
-#footer .footer{
+#footer .footer-container{
     min-height: 200px;
-    flex-direction: column;
     display: flex;
+    flex-direction: column; 
     padding-top: 50px;
     padding-bottom: 10px;
 }

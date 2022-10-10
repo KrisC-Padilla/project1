@@ -336,21 +336,15 @@ img{
     font-weight: 300;
     margin-top: 10px;
 }
+#projects .project-info a{
+    text-decoration: none;
+	color: inherit; 
+}
 #projects .project-img{
     flex-basis: 50%;
     height: 300px;
     overflow: hidden;
     position:relative;
-}
-#projects .project-img:after{
-    content: '';
-    position: absolute;
-    left: 0;
-    top: 0;
-    height: 100px;
-    width:100px;
-    background-color: gray;
-    opacity: .7;
 }
 
 #projects .project-img img{transition: .3s ease transform;}

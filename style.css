@@ -39,7 +39,7 @@ img{
 }
 #header .nav-bar{
     display: flex;
-    align-items: center;
+    align-items: left;
     justify-content: space-between;
     width: 100%;
     height: 100%;
@@ -91,6 +91,7 @@ img{
     letter-spacing: initial;
 }
 #header .nav-list  ul li:hover a{color: crimson;}
+
 /* HAMBURGER menu - please be good to me*/
 #header .hamburger{
     height: 60px;
@@ -108,7 +109,7 @@ img{
     margin-right: 20px;
     margin-top: 20px;
 }
-#header .hamburger :after{
+#header .hamburger:after{
     position: absolute;
     content: '';
     height: 100%;
@@ -358,18 +359,18 @@ img{
     height: 360px;
 }
 #about .col-right{
-   
     width: 250px;
     height: 360px;
 }
 #about .col-right h2{
-    font-size: 2.5rem;
+    font-size: 4rem;
     font-weight: 500;
     letter-spacing: .2rem;
     margin-bottom: 10px;
 }
 #about .col-right p{
     margin-bottom: 20px;
+    font-size: x-large;
 }
 #about .col-left .about-img{
     position:relative;
@@ -378,7 +379,6 @@ img{
     border: 4px solid crimson;
 }
 #about .col-left .about-img img::after{
-    content: '';
     position: absolute;
     left: -33px;
     top: 19px;

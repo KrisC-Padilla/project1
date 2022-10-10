@@ -277,6 +277,7 @@ img{
     line-height: 1.5rem;
 }
 /* END OF SERVICE SECTION */
+
 /* projects section */
 #projects .projects{
     flex-direction: column;
@@ -344,6 +345,7 @@ img{
 #projects .project-item:hover .project-img img{transform: scale(1.2);}
 /* end of project section */
 /* start about section */
+
 #about .about{
     flex-direction: column-reverse;
     text-align: center;
@@ -356,9 +358,11 @@ img{
     height: 360px;
 }
 #about .col-right{
-    width: 100%;
+   
+    width: 250px;
+    height: 360px;
 }
-#about .col-righth h2{
+#about .col-right h2{
     font-size: 2.5rem;
     font-weight: 500;
     letter-spacing: .2rem;

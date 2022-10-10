@@ -348,9 +348,8 @@ img{
 /* start about section */
 
 #about .about{
-    flex-direction: column-reverse;
+    flex-direction: row;
     text-align: center;
-    justify-items: auto;
     max-width: 1200px;
     margin: 0 auto;
     padding: 100px 20px

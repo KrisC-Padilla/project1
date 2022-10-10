@@ -362,15 +362,23 @@ img{
     width: 250px;
     height: 360px;
 }
-#about .col-right h2{
+/* #about .col-right h2{
     font-size: 4rem;
     font-weight: 500;
     letter-spacing: .2rem;
     margin-bottom: 10px;
-}
+} */
+
+/* #about .col-right h3{
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: .2rem;
+    margin-bottom: 10px;
+} */
+
 #about .col-right p{
     margin-bottom: 20px;
-    font-size: x-large;
+    font-size: large;
 }
 #about .col-left .about-img{
     position:relative;

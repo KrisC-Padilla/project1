@@ -304,6 +304,7 @@ img{
     margin: 20px auto;
     overflow: hidden;
     border-radius: 10px;
+    
 }
 #projects .project-info{
     padding: 30px;
@@ -319,9 +320,19 @@ img{
 #projects .project-info h2{
     font-size: 4rem;
     font-weight: 500;
+    color: white;
+    text-decoration: none;
+}
+#projects .project-info h2:hover{
+    color: crimson;  
 }
 #projects .project-info h3{
-    font-size: 1.8rem;
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: 10px;
+}
+#projects .project-info p{
+    font-size: 14px;
     font-weight: 300;
     margin-top: 10px;
 }
@@ -331,7 +342,7 @@ img{
     overflow: hidden;
     position:relative;
 }
-/* #projects .project-img:after{
+#projects .project-img:after{
     content: '';
     position: absolute;
     left: 0;
@@ -340,7 +351,7 @@ img{
     width:100px;
     background-color: gray;
     opacity: .7;
-} */
+}
 
 #projects .project-img img{transition: .3s ease transform;}
 #projects .project-item:hover .project-img img{transform: scale(1.2);}

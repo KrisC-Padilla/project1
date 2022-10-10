@@ -341,8 +341,8 @@ img{
 	color: inherit; 
 }
 #projects .project-img{
-    flex-basis: 40%;
-    height: 250px;
+    flex-basis: 50%;
+    height: 300px;
     overflow: hidden;
     position:relative;
 }

@@ -374,6 +374,9 @@ img{
 #about .col-right p{
     margin-bottom: 20px;
     font-size: large;
+    text-align: justify;
+    text-justify: inter-word;
+
 }
 #about .col-left .about-img{
     display: flex;
@@ -393,7 +396,7 @@ img{
 
 #footer{background-color:#eee;}
 #footer .footer-container{
-    min-height: 200px;
+    min-height: 220px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -407,6 +410,10 @@ img{
     flex-direction: row;
     align-items: center;
     justify-content: center;
+}
+
+#footer .footer-container p{
+    font-weight: 100 ;
 }
 /* end of footer */
 

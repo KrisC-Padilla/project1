@@ -169,7 +169,7 @@ img{
     color: transparent;
     text-shadow:black;
     animation: text_reveal .5s ease forwards;
-    animation-delay: 1.5s;
+    animation-delay: .5s;
 }
 #hero h1 span{
     position: absolute;

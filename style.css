@@ -227,7 +227,7 @@ img{
 }
 /* service section */
 #services .service-top{
-    padding: 100px 0px;
+    padding: 100px 0;
 }
 #services .service-bottom{
     display: flex;
@@ -242,7 +242,7 @@ img{
     align-items: flex-start;
     justify-content: center;
     flex-direction: column;
-    padding: 5px;
+    padding: 20px;
     background-color:#485563;
     background-size: cover;
     margin: 10px 5%;

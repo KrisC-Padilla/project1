@@ -144,7 +144,7 @@ img{
 
 /* this is the Hero Section */
 #hero{
-    background-image: url(kboard.jpg);
+    background-image: url(services.gif);
     background-size: cover; 
     background-position: top center;
     position: relative;
@@ -200,7 +200,8 @@ img{
 }
 #hero h4{
     color: crimson;
-    font-size: larger;
+    font-size: x-large;
+    font-weight: 300;
 }
 /* END OF HERO SECTION */
 

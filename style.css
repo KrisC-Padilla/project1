@@ -211,7 +211,7 @@ img{
     text-align: center;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 100px;
+    padding: 100px 20;
 }
 .section-title{
     font-size: 4rem;
@@ -227,13 +227,9 @@ img{
     color: crimson;
 }
 /* service section */
-/* #services .service-top p{
-    font-size: 1.4rem;
-    margin: 15px 20px 20px;
-    line-height: 2.5rem;
-    font-weight: 300;
-    letter-spacing: .05rem;
-} */
+#services .service-top{
+    padding: 100px 0;
+}
 #services .service-bottom{
     display: flex;
     align-items: center;

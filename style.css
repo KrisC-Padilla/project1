@@ -242,12 +242,12 @@ img{
     align-items: flex-start;
     justify-content: center;
     flex-direction: column;
-    padding: 20px;
+    padding: 10px;
     background-color:#485563;
     background-size: cover;
     margin: 10px 5%;
     position:relative;
-    z-index: 1;
+    /* z-index: 1; */
 }
 /* this is for the overlay - used z-index for this*/
 /* #services .service-item::after{

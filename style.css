@@ -221,13 +221,13 @@ img{
     color: crimson;
 }
 /* service section */
-#services .service-top p{
+/* #services .service-top p{
     font-size: 1.4rem;
     margin: 15px 20px 20px;
     line-height: 2.5rem;
     font-weight: 300;
     letter-spacing: .05rem;
-}
+} */
 #services .service-bottom{
     display: flex;
     align-items: center;
@@ -236,7 +236,7 @@ img{
     margin-top: 10px;
 }
 #services .service-item{
-    flex-basis: 80%;
+    flex-basis: 60%;
     display: flex;
     align-items: flex-start;
     justify-content: center;

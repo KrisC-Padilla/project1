@@ -198,9 +198,9 @@ img{
     color: white;
     background-color: crimson;
 }
-#hero .marquee-hero{
+.marquee-hero{
     color: crimson;
-    font-size: medium;
+    font-size: larger;
 }
 /* END OF HERO SECTION */
 

@@ -242,13 +242,13 @@ img{
     margin-top: 10px;
 }
 #services .service-item{
-    flex-basis: 60%;
+    flex-basis: 80%;
     display: flex;
     align-items: flex-start;
     justify-content: center;
     flex-direction: column;
     padding: 20px;
-    background-color:black;
+    background-color:#485563;
     background-size: cover;
     margin: 10px 5%;
     position:relative;

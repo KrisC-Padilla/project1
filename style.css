@@ -148,9 +148,9 @@ img{
     background-size: cover; 
     background-position: top center;
     position: relative;
-    z-index: 1;
+    /* z-index: 1; */
 }
-#hero::after{
+/* #hero::after{
     content: '';
     position: absolute;
     left: 0;
@@ -160,7 +160,7 @@ img{
     background-color:black;
     opacity: .75;
     z-index: -1;
-}
+} */
 #hero h1{
     display: block;
     width: fit-content;

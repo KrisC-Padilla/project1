@@ -169,7 +169,7 @@ img{
     color: transparent;
     text-shadow:black;
     animation: text_reveal .5s ease forwards;
-    animation-delay: .5s;
+    animation-delay: 1.5s;
 }
 #hero h1 span{
     position: absolute;
@@ -197,6 +197,10 @@ img{
 #hero .cta:hover{
     color: white;
     background-color: crimson;
+}
+#hero .marquee-hero{
+    color: crimson;
+    font-size: medium;
 }
 /* END OF HERO SECTION */
 

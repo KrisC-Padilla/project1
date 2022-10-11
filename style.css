@@ -234,7 +234,7 @@ img{
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    margin-top: 5px;
+    margin-top: 10px;
 }
 #services .service-item{
     flex-basis: 80%;
@@ -242,7 +242,7 @@ img{
     align-items: flex-start;
     justify-content: center;
     flex-direction: column;
-    padding: 20px;
+    padding: 5px;
     background-color:#485563;
     background-size: cover;
     margin: 10px 5%;

@@ -37,7 +37,7 @@ img{
     background-color:black;
     transition: .3s ease background-color;
 }
-#header .nav-bar{
+/* #header .nav-bar{
     display: flex;
     align-items: left;
     justify-content: space-between;
@@ -72,9 +72,9 @@ img{
     text-transform: uppercase;
     padding: 20px;
     display: block;
-}
+} */
 /* for animation  using attr data-after */
-#header .nav-list ul li a::after{
+/* #header .nav-list ul li a::after{
     content: attr(data-after);
     position: absolute;
     top: 50%;
@@ -89,11 +89,11 @@ img{
 #header .nav-list  ul li:hover a::after{
     transform: translate(-50%, -50%) scale(1);  
     letter-spacing: initial;
-}
+} */
 #header .nav-list  ul li:hover a{color: crimson;}
 
 /* HAMBURGER menu - please be good to me*/
-#header .hamburger{
+/* #header .hamburger{
     height: 60px;
     width: 60px;
     display: inline-block;
@@ -139,7 +139,7 @@ img{
 #header .hamburger .bar::after{top: 8px;}
 #header .hamburger .bar::before{ bottom: 8px;}
 #header .hamburger .active .bar::before{bottom: 0;}
-#header .hamburger .active .bar::after{top: 0;}  
+#header .hamburger .active .bar::after{top: 0;}   */
 /* end of header section*/
 
 /* this is the Hero Section */

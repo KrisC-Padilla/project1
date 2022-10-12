@@ -610,7 +610,7 @@ img{
 
 /* --------------------------------------------------------------------------------------- */
 /* media query desktop */
-    @media only screen and (min-width: 10204px){
+    @media only screen and (min-width: 1024px){
     #header .nav-list ul{
         position: initial;
         display:  block;

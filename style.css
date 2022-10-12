@@ -497,7 +497,7 @@ img{
 
 /* header */
 
-#header .nav-list{
+#header .nav-list ul{
     display: none;   
 }
    

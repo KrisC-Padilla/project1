@@ -498,7 +498,8 @@ img{
 /* header */
 
 #header .nav-list ul{
-    display: none;   
+   width: 50%;
+   height: 50%; 
 }
    
 /* services section */

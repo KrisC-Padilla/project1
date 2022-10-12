@@ -540,7 +540,7 @@ img{
 
 /* --------------------------------------------------------------------------------------------- */
 /* media query for small screens and laptops */
-@media only screen and (max-width: 1024px) and (min-width: 769px){
+/* @media only screen and (max-width: 1024px) and (min-width: 769px){
     #header .nav-list ul{
         position: initial;
         display:  block;
@@ -554,7 +554,7 @@ img{
     #services .service-button .service-item{
     flex-basis: 22%;
     margin: 1.5%;}
-}
+} */
 
 /* --------------------------------------------------------------------------------------- */
 /* media query desktop */

@@ -1,6 +1,6 @@
-const hamburger = document.querySelector('.header .header container .nav-bar .nav-list .hamburger .bar');
-const mobile_menu = document.querySelector('.header .header container .nav-bar .nav-list .hamburger .bar ul');
-const menu_item = document.querySelectorAll('.header .header container .nav-bar .nav-list .hamburger .bar ul li a');
+const hamburger = document.querySelector('.header .header container .nav-list .hamburger .bar');
+const mobile_menu = document.querySelector('.header .header container .nav-list .hamburger .bar ul');
+const menu_item = document.querySelectorAll('.header .header container .nav-list .hamburger .bar ul li a');
 const header = document.querySelector('.header .header container');
 
 hamburger.addEventListener('click',()=>{

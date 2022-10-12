@@ -37,16 +37,15 @@ img{
     background-color:black;
     transition: .3s ease background-color;
 }
-#header .nav-bar{
+/* #header .nav-bar{
     display: flex;
-    /* align-items: left; original is left */
-    align-items: center;
+    align-items: left;
     justify-content: space-between;
     width: 100%;
     height: 100%;
     max-width: 1300px;
     padding: 0 10px;
-}
+} */
 #header .nav-list ul{
     list-style: none;
     position:absolute;
@@ -94,7 +93,7 @@ img{
 #header .nav-list  ul li:hover a{color: crimson;}
 
 /* HAMBURGER menu - please be good to me*/
-/* #header .hamburger{
+#header .hamburger{
     height: 60px;
     width: 60px;
     display: inline-block;
@@ -141,7 +140,7 @@ img{
 #header .hamburger .bar::before{ bottom: 8px;}
 #header .hamburger .active .bar::before{bottom: 0;}
 #header .hamburger .active .bar::after{top: 0;}  */
-/* end of header section */
+/* end of header section
 
 /* this is the Hero Section */
 #hero{
@@ -473,8 +472,7 @@ img{
     h1.section-title{font-size: 6rem;}
  /* hero */
     #hero h1{font-size: 7rem;}
-    #hero {background-image: url(kcp2.gif);
-        background-size:auto; }
+   
 /* services section */
     .services .service-button .service-item{
         flex-basis: 45%;
@@ -527,8 +525,7 @@ img{
     h2.section-title{font-size: 6rem;}
     /* hero */
     #hero h1{font-size: 7rem;}
-    #hero {background-image: url(kcp2.gif);
-    background-size:auto; }
+   
     /* end of hero */
     /* service section */
     #services .service-bottom .service-item{

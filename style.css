@@ -139,8 +139,8 @@ img{
 #header .hamburger .bar::after{top: 8px;}
 #header .hamburger .bar::before{ bottom: 8px;}
 #header .hamburger .active .bar::before{bottom: 0;}
-#header .hamburger .active .bar::after{top: 0;}  */
-/* end of header section
+#header .hamburger .active .bar::after{top: 0;}  
+/* end of header section*/
 
 /* this is the Hero Section */
 #hero{

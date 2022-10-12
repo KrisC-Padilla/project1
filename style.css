@@ -14,7 +14,7 @@ a{text-decoration: none;}
     min-height: 100vh;
     width: 100%;
     display: flex;
-    /* flex-direction: column; */
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
@@ -540,7 +540,7 @@ img{
     /* end of project */
     /* about */
     /* end of about */
-    
+
 /* media query desktop */
     @media only screen and (min-width: 1200px){
     #header .hamburger{display:none;}

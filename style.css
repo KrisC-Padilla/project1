@@ -484,11 +484,9 @@ img{
     }
 } */
 
-/* ----------------------MEDIA QUERY------------------------------------------------ */
 
-/* ------------------------------------------------------------------------------------------ */
-/* media query for mobile and tablet */
-@media only screen and (max-width: 768px){
+/* media query */
+@media only screen and (min-width:768px){
     .cta{
         font-size: 2.5rem;
         padding: 20px 60px;
@@ -512,8 +510,9 @@ img{
         border-radius: 0;
 }
     #projects .all-projects .project-info{height: 100%;}
-    #projects .all-projects .project-img{height: 100%;}
-
+    #projects .all-projects .project-img{
+        height: 100%;
+}
 
 /* start of about section */
     #about .about{flex-direction: column;}
@@ -538,25 +537,37 @@ img{
 }
 /* end of about section */
 
-/* --------------------------------------------------------------------------------------------- */
-/* media query for small screens and laptops */
-/* @media only screen and (max-width: 1024px) and (min-width: 769px){
-    #header .nav-list ul{
-        position: initial;
-        display:  block;
-        height: auto;
-        width: fit-content;
-        background-color: transparent;
-    }
-    #header .nav-list ul li{display: inline-block;}
-    #header .nav-list ul li a{font-size: 1.8rem;}
-    #header .nav-list ul a:after{display:none;}
-    #services .service-button .service-item{
-    flex-basis: 22%;
-    margin: 1.5%;}
-} */
 
-/* --------------------------------------------------------------------------------------- */
+/* media query for tablet */
+    @media only screen and (min-width: 768px){
+    .cta{
+        font-size: 2.5rem;
+        padding: 20px 60px;
+    }
+    h2.section-title{font-size: 6rem;}
+    /* hero */
+    #hero h1{font-size: 7rem;}
+    
+    /* end of hero */
+    /* service section */
+    #services .service-bottom .service-item{
+        flex-basis: 45%;
+        margin: 2.5%;
+    }
+    /* end of service section */
+    /* project */
+    #project .project-item{
+        height: 400px;
+        margin: 0;
+        width: 100%;
+        border-radius: 0;
+    }
+    #projects .align-self .project-info{height:100%;}
+    #projects .align-self .project-img{height:100%;}
+    /* end of project */
+    /* about */
+    /* end of about */
+
 /* media query desktop */
     @media only screen and (min-width: 1200px){
     #header .nav-list ul{
@@ -572,4 +583,5 @@ img{
     #services .service-button .service-item{
     flex-basis: 22%;
     margin: 1.5%;}
+}
 }

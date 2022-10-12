@@ -498,8 +498,18 @@ img{
 /* header */
 
 #header .nav-list ul{
-   width: 50%;
-   height: 50%; 
+    position: initial;
+    display:  block;
+    height: auto;
+    width: fit-content;
+    background-color: transparent;
+}
+#header .nav-list ul li{display: inline-block;}
+#header .nav-list ul li a{font-size: .8rem;}
+#header .nav-list ul a:after{display:none;}
+#services .service-button .service-item{
+flex-basis: 10%;
+margin: 1.5%;}
 }
    
 /* services section */
@@ -541,7 +551,7 @@ img{
         padding: 30px;
     } 
 #about .col-right h1{text-align:  left;}
-}
+
 /* end of about section */
 
 

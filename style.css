@@ -46,7 +46,7 @@ img{
     max-width: 1300px;
     padding: 0 10px;
 } */
-#header .nav-list ul{
+/* #header .nav-list ul{
     list-style: none;
     position:absolute;
     background-color: rgba(31, 30, 30);
@@ -58,10 +58,10 @@ img{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* z-index: 1;
+    z-index: 1;
     overflow-x: hidden;
-    transition: 0.5s ease left; */
-}
+    transition: 0.5s ease left;
+} */
 /* #header .nav-list ul:active{left:0;} */
 /* #header .nav-list ul a{
     font-size: 2.5rem;

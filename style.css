@@ -363,14 +363,14 @@ img{
     text-align: center;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 100px 20px
+    padding: 100px 20px;
 }
 #about .col-left{
     width: 250px;
 }
 #about .col-right{
-    width: 250px;
-    height: 360px;
+    width: 150px;
+    height: 260px;
 }
 /* #about .col-right h2{
     font-size: 4rem;

@@ -494,6 +494,12 @@ img{
     h1.section-title{font-size: 6rem;}
  /* hero */
     #hero h1{font-size: 7rem;}
+
+/* header */
+
+#header .nav-list{
+    display: none;   
+}
    
 /* services section */
     .services .service-button .service-item{
@@ -505,7 +511,7 @@ img{
     #projects .project-item:nth-child(even){flex-direction:row-reverse;}
     #projects .project-item{
         height: 400px;
-        margin: 0;
+        margin: 10;
         width: 100%;
         border-radius: 0;
 }

@@ -356,6 +356,8 @@ img{
 #projects .project-img img{transition: .3s ease transform;}
 #projects .project-item:hover .project-img img{transform: scale(1.2);}
 /* end of project section */
+
+
 /* start about section */
 
 #about .about{
@@ -393,8 +395,8 @@ img{
 #about .col-left .about-img{
     display: flex;
     flex-direction: column;
-    height: 100%;
-    width:100%;
+    height: 90%;
+    width: 90%;
     border: 4px solid crimson;
 }
 #about .col-left .about-img img::after{
@@ -489,8 +491,9 @@ img{
     #projects .all-projects .project-img{
         height: 100%;
 }
+
 /* start of about section */
-    #about .about{flex-direction: row;}
+    #about .about{flex-direction: column;}
 
     #about .col-left{
         width: 600px;

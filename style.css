@@ -568,7 +568,7 @@ img{
 
 
 /* start of about section */
-    #about .about{flex-direction: column;}
+    #about .about{flex-direction: row;}
 
     #about .col-left{
         width: 600px;

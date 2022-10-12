@@ -395,8 +395,8 @@ img{
 #about .col-left .about-img{
     display: flex;
     flex-direction: column;
-    height: 90%;
-    width: 90%;
+    height: 100%;
+    width: 100%;
     border: 4px solid crimson;
 }
 #about .col-left .about-img img::after{
@@ -505,7 +505,7 @@ img{
         top:34px;
         height: 98%;
         width: 98%;
-        border: 10px solid crimson;
+        border: 1px solid crimson;
 }
     #about .col-right{
         text-align: left;

@@ -486,7 +486,7 @@ img{
 
 /* ----------------------MEDIA QUERY------------------------------------------------ */
 /* media query for phone */
-@media only screen and (min-width:375px){
+@media only screen and (max-width: 480px) and (min-width: 320px){
     .cta{
         font-size: 2.5rem;
         padding: 20px 60px;
@@ -540,7 +540,7 @@ img{
 
 /* ------------------------------------------------------------------------------------------ */
 /* media query for tablet */
-@media only screen and (min-width:768px){
+@media only screen and (max-width: 768px) and (min-width: 481px){
     .cta{
         font-size: 2.5rem;
         padding: 20px 60px;
@@ -590,9 +590,27 @@ img{
 }
 /* end of about section */
 
+/* --------------------------------------------------------------------------------------------- */
+/* media query for small screens and laptops */
+@media only screen and (max-width: 1024px) and (min-width: 769px){
+    #header .nav-list ul{
+        position: initial;
+        display:  block;
+        height: auto;
+        width: fit-content;
+        background-color: transparent;
+    }
+    #header .nav-list ul li{display: inline-block;}
+    #header .nav-list ul li a{font-size: 1.8rem;}
+    #header .nav-list ul a:after{display:none;}
+    #services .service-button .service-item{
+    flex-basis: 22%;
+    margin: 1.5%;}
+}
+
 /* --------------------------------------------------------------------------------------- */
 /* media query desktop */
-    @media only screen and (min-width: 1200px){
+    @media only screen and (min-width: 10204px){
     #header .nav-list ul{
         position: initial;
         display:  block;

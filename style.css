@@ -37,7 +37,7 @@ img{
     background-color:black;
     transition: .3s ease background-color;
 }
-/* #header .nav-bar{
+#header .nav-bar{
     display: flex;
     align-items: left;
     justify-content: space-between;
@@ -45,7 +45,7 @@ img{
     height: 100%;
     max-width: 1300px;
     padding: 0 10px;
-} */
+}
 #header .nav-list ul{
     list-style: none;
     position:absolute;

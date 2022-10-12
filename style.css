@@ -74,7 +74,7 @@ img{
     display: block;
 }
 /* for animation  using attr data-after */
-#header .nav-list ul li a::after{
+/* #header .nav-list ul li a::after{
     content: attr(data-after);
     position: absolute;
     top: 50%;
@@ -89,7 +89,7 @@ img{
 #header .nav-list  ul li:hover a::after{
     transform: translate(-50%, -50%) scale(1);  
     letter-spacing: initial;
-}
+} */
 #header .nav-list  ul li:hover a{color: crimson;}
 
 /* HAMBURGER menu - please be good to me*/

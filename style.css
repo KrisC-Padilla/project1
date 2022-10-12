@@ -94,7 +94,7 @@ img{
 #header .nav-list  ul li:hover a{color: crimson;}
 
 /* HAMBURGER menu - please be good to me*/
-#header .hamburger{
+/* #header .hamburger{
     height: 60px;
     width: 60px;
     display: inline-block;
@@ -108,7 +108,7 @@ img{
     cursor:pointer;
     transform: scale(0.8);
     margin-right: 20px;
-    /* margin-top: 10px; */
+    margin-top: 10px;
 }
 #header .hamburger:after{
     position: absolute;
@@ -140,7 +140,7 @@ img{
 #header .hamburger .bar::after{top: 8px;}
 #header .hamburger .bar::before{ bottom: 8px;}
 #header .hamburger .active .bar::before{bottom: 0;}
-#header .hamburger .active .bar::after{top: 0;} 
+#header .hamburger .active .bar::after{top: 0;}  */
 /* end of header section */
 
 /* this is the Hero Section */

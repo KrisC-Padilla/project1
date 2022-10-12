@@ -497,21 +497,7 @@ img{
 
 /* header */
 
-#header .nav-list ul{
-    position: initial;
-    display:  block;
-    height: auto;
-    width: fit-content;
-    background-color: transparent;
-}
-#header .nav-list ul li{display: inline-block;}
-#header .nav-list ul li a{font-size: .8rem;}
-#header .nav-list ul a:after{display:none;}
-#services .service-button .service-item{
-flex-basis: 10%;
-margin: 1.5%;}
-}
-   
+  
 /* services section */
     .services .service-button .service-item{
         flex-basis: 45%;
@@ -522,7 +508,7 @@ margin: 1.5%;}
     #projects .project-item:nth-child(even){flex-direction:row-reverse;}
     #projects .project-item{
         height: 400px;
-        margin: 10;
+        margin: 0;
         width: 100%;
         border-radius: 0;
 }
@@ -601,4 +587,4 @@ margin: 1.5%;}
     flex-basis: 22%;
     margin: 1.5%;}
 }
-}
+}}

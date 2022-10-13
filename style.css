@@ -317,7 +317,6 @@ img{
     text-align: justify;
 }
 
-
 #services .service-bottom .icon{
     height: 80px;
     width: 80px;
@@ -329,13 +328,7 @@ img{
     margin-bottom: 10px;
     text-decoration: uppercase;
 }
-#services .service-items p{
-    color:white;
-    text-align: left;
-    font-size: 1.4rem;
-    line-height: 1.5rem;
-    text-align: justify;
-}
+
 /* END OF SERVICE SECTION */
 
 /* projects section */

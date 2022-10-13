@@ -273,6 +273,19 @@ img{
     position:relative;
     z-index: 1;
 }
+#services .service-items{
+    flex-basis: 80%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: row;
+    padding: 20px;
+    background-color:#485563;
+    background-size: cover;
+    margin: 10px 5%;
+    position:relative;
+    z-index: 1;
+}
 /* this is for the overlay - used z-index for this*/
 /* #services .service-item::after{
     content: '';

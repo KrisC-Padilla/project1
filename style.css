@@ -406,15 +406,15 @@ END OF HERO SECTION */
         padding-left: 60px;
     }
     #about .about .col-left .about-img::after{
-        left: -45px;
-        top: 34px;
+        /* left: -45px;
+        top: 34px; */
         height: 25%;
         width: 25%;
         border: 1px solid crimson;
 }
     #about .col-right{
         text-align: left;
-        padding: 30px;
+        padding: 20px;
     } 
 #about .col-right h1{text-align:  left;}
 
@@ -446,9 +446,6 @@ END OF HERO SECTION */
     }
     #projects .align-self .project-info{height:100%;}
     #projects .align-self .project-img{height:100%;}
-    /* end of project */
-    /* about */
-    /* end of about */
 }
 /* media query desktop */
     @media only screen and (min-width: 1200px){

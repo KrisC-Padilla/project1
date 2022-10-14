@@ -375,6 +375,8 @@ END OF HERO SECTION */
     #hero h1{font-size: 7rem;}
     #header .nav-list{display: none;}
     #hero{background-image: url('krismobile.gif');
+        background-repeat: no-repeat;
+        background-size: cover;
        
     }
   

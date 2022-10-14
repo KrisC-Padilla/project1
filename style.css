@@ -37,7 +37,7 @@ img{
     background-color:black;
     transition: .3s ease background-color;
 }
-/* #header .nav-bar{
+#header .nav-bar{
     display: flex;
     align-items: left;
     justify-content: space-between;
@@ -45,7 +45,7 @@ img{
     height: 100%;
     max-width: 1300px;
     padding: 0 10px;
-} */
+}
 
 #header .nav-list ul{
     list-style: none;
@@ -68,7 +68,7 @@ img{
     padding: 20px;
     display: block;
 }
-/* #header .nav-list ul{
+#header .nav-list ul{
     list-style: none;
     position:absolute;
     background-color: rgba(31, 30, 30);
@@ -111,7 +111,7 @@ img{
 #header .nav-list  ul li:hover a::after{
     transform: translate(-50%, -50%) scale(1);  
     letter-spacing: initial;
-} */
+}
 #header .nav-list  ul li:hover a{color: crimson;}
 
 

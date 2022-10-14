@@ -394,8 +394,8 @@ END OF HERO SECTION */
         width: 60%;
         border-radius: 0;
 }
-    #projects .all-projects .project-info{height: 100%;}
-    #projects .all-projects .project-img{display: none;}
+    #projects .all-projects .project-info{display:none}
+    #projects .all-projects .project-img{width: 100%;}
 
 /* start of about section */
     #about .about{flex-direction: column;}
@@ -406,7 +406,8 @@ END OF HERO SECTION */
         padding-left: 60px;
     }
     #about .about .col-left .about-img{
-        
+        left: -45px;
+        top: 34px
         height: 50px;
         width: 50px;;
         border: 1px solid crimson;

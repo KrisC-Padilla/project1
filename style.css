@@ -512,7 +512,7 @@ img{
 
 
 /* media query */
-@media only screen and (max-width:660px){
+@media only screen and (min-width:660px){
     .cta{
         font-size: 2.5rem;
         padding: 20px 60px;

@@ -394,8 +394,8 @@ END OF HERO SECTION */
         width: 60%;
         border-radius: 0; */
 }
-    #projects .all-projects .project-info{display:none}
-    #projects .all-projects .project-img{width: 350px;}
+    #projects .all-projects .project-info{display:75%}
+    #projects .all-projects .project-img{display:none}
 
 /* start of about section */
     #about .about{flex-direction: column;}

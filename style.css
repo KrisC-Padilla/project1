@@ -387,11 +387,11 @@ END OF HERO SECTION */
     #projects .project-item{
         height: 200px;
         margin: 0;
-        width: 100%;
+        width: 50%;
         border-radius: 0;
 }
-    #projects .all-projects .project-info{height: 100%;}
-    #projects .all-projects .project-img{height: 100%;}
+    #projects .all-projects .project-info{height: 50%;}
+    #projects .all-projects .project-img{height: 50%;}
 
 /* start of about section */
     #about .about{flex-direction: column;}
@@ -404,8 +404,8 @@ END OF HERO SECTION */
     #about .about .col-left .about-img::after{
         left: -45px;
         top:34px;
-        height: 98%;
-        width: 98%;
+        height: 50%;
+        width: 50%;
         border: 1px solid crimson;
 }
     #about .col-right{

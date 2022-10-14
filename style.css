@@ -377,6 +377,7 @@ END OF HERO SECTION */
     #hero{background-image: url('krismobile.gif');
         background-repeat: no-repeat;
         background-size: cover;
+        background-position: center center;
        
     }
   

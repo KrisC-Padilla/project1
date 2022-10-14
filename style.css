@@ -377,8 +377,7 @@ END OF HERO SECTION */
     #hero{background-image: url('krismobile.gif');
         background-repeat: no-repeat;
         background-size: cover;
-        background-position: center center;
-       
+        background-position: center center;     
     }
   
 /* services section */
@@ -391,8 +390,8 @@ END OF HERO SECTION */
     #projects .project-item:nth-child(even){flex-direction:row-reverse;}
     #projects .project-item{
         height: 400px;
-        margin: 0;
-        width: 100%;
+        margin: 10;
+        width: 60%;
         border-radius: 0;
 }
     #projects .all-projects .project-info{height: 100%;}
@@ -408,9 +407,9 @@ END OF HERO SECTION */
     }
     #about .about .col-left .about-img::after{
         left: -45px;
-        top:34px;
-        height: 50%;
-        width: 50%;
+        top: 34px;
+        height: 25%;
+        width: 25%;
         border: 1px solid crimson;
 }
     #about .col-right{

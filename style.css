@@ -37,7 +37,7 @@ img{
     background-color:black;
     transition: .3s ease background-color;
 }
-/* #header .nav-bar{
+#header .nav-bar{
     display: flex;
     align-items: left;
     justify-content: space-between;
@@ -45,11 +45,11 @@ img{
     height: 100%;
     max-width: 1300px;
     padding: 0 10px;
-} */
+}
 
 #header .nav-list ul{
     list-style: none;
-    position: absolute;
+    position: fixed;
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -68,7 +68,7 @@ img{
     padding: 20px;
     display: block;
 }
-/* #header .nav-list ul{
+#header .nav-list ul{
     list-style: none;
     position:absolute;
     background-color: rgba(31, 30, 30);
@@ -84,8 +84,8 @@ img{
     overflow-x: hidden;
     transition: 0.5s ease left;
 } */
-/* #header .nav-list ul:active{left:0;} */
-/* #header .nav-list ul a{
+#header .nav-list ul:active{left:0;}
+#header .nav-list ul a{
     font-size: 2.5rem;
     font-weight: 500;
     letter-spacing: 0.2rem;
@@ -94,75 +94,11 @@ img{
     text-transform: uppercase;
     padding: 20px;
     display: block;
-} */
-/* for animation  using attr data-after */
-/* #header .nav-list ul li a::after{
-    content: attr(data-after);
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%) scale(0);  
-    color: rgba(240, 248, 255, 0.021);
-    font-size: 14rem;
-    letter-spacing: 50px;
-    z-index: -1;
-    transition: 0.4s ease letter-spacing;
 }
-#header .nav-list  ul li:hover a::after{
-    transform: translate(-50%, -50%) scale(1);  
-    letter-spacing: initial;
-} */
+
 #header .nav-list  ul li:hover a{color: crimson;}
 
-/* HAMBURGER menu - please be good to me*/
-/* #header .hamburger{
-    height: 60px;
-    width: 60px;
-    display: inline-block;
-    border: 3px solid white;
-    border-radius: 50%;
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    z-index: 100;
-    cursor:pointer;
-    transform: scale(0.8);
-    margin-right: 20px;
-    margin-top: 10px;
-}
-#header .hamburger:after{
-    position: absolute;
-    content: '';
-    height: 100%;
-    width: 100%;
-    border-radius: 50%;
-    border: 3px solid white;
-    animation: hamburger_pulse 1s ease infinite;
-}
-#header .hamburger .bar{
-    height: 2px;
-    width: 30px;
-    position: relative;
-    background-color: white;
-    z-index: -1;
-}
-#header .hamburger .bar::after,
-#header .hamburger .bar::before {
-    content: '';
-    position: absolute;
-    height: 100%;
-    width: 100;
-    left:0;
-    background-color: white;
-    transition: .3s ease;
-    transition-property: top, bottom;
-}
-#header .hamburger .bar::after{top: 8px;}
-#header .hamburger .bar::before{ bottom: 8px;}
-#header .hamburger .active .bar::before{bottom: 0;}
-#header .hamburger .active .bar::after{top: 0;}   */
-/* end of header section*/
+
 
 /* this is the Hero Section */
 #hero{

@@ -521,11 +521,11 @@ img{
  /* hero */
     #hero h1{font-size: 7rem;}
     #hero{
-        background-image: url(kcp2.gif);
-        background-size: cover; 
+        background-image: url(kcpmobile.gif);
+        /* background-size: cover; 
         background-position: top center;
         position: relative;
-        /* z-index: 1; */
+        z-index: 1; */
     }
 
 /* header */

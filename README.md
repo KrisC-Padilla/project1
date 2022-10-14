@@ -51,8 +51,7 @@ This project is a Portfolio of all the services and projects created bu the auth
 Created using HTML, CSS and JS.
 
 ## Authors and acknowledgment
-I would like to thank all the people who have helped me with this project. Special mention to Uplift Code Camp mentors Sir JC and Master Pabs. 
-Thank you for the patience and sharing the knowledge you have. I appreciate all of this.
+KCPadilla
 
 ## License
 For open source projects, say how it is licensed.

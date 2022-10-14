@@ -114,55 +114,6 @@ img{
 } */
 #header .nav-list  ul li:hover a{color: crimson;}
 
-/* HAMBURGER menu - please be good to me*/
-/* #header .hamburger{
-    height: 60px;
-    width: 60px;
-    display: inline-block;
-    border: 3px solid white;
-    border-radius: 50%;
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    z-index: 100;
-    cursor:pointer;
-    transform: scale(0.8);
-    margin-right: 20px;
-    margin-top: 10px;
-}
-#header .hamburger:after{
-    position: absolute;
-    content: '';
-    height: 100%;
-    width: 100%;
-    border-radius: 50%;
-    border: 3px solid white;
-    animation: hamburger_pulse 1s ease infinite;
-}
-#header .hamburger .bar{
-    height: 2px;
-    width: 30px;
-    position: relative;
-    background-color: white;
-    z-index: -1;
-}
-#header .hamburger .bar::after,
-#header .hamburger .bar::before {
-    content: '';
-    position: absolute;
-    height: 100%;
-    width: 100;
-    left:0;
-    background-color: white;
-    transition: .3s ease;
-    transition-property: top, bottom;
-}
-#header .hamburger .bar::after{top: 8px;}
-#header .hamburger .bar::before{ bottom: 8px;}
-#header .hamburger .active .bar::before{bottom: 0;}
-#header .hamburger .active .bar::after{top: 0;}   */
-/* end of header section*/
 
 /* this is the Hero Section */
 #hero{
@@ -230,7 +181,7 @@ img{
 /* END OF HERO SECTION */
 
 /* START OF SERVICE SECTION  */
-#services .service container{
+#services .service-container{
     flex-direction: column;
     max-width: 1200px;
     margin: 0 auto;
@@ -573,7 +524,6 @@ img{
    
     h1.section-title{font-size: 6rem;}
  /* hero */
-    #hero h1{font-size: 7rem;}
     #hero .nav-list{display: none;}
     
   

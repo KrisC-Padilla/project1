@@ -512,7 +512,7 @@ img{
 
 
 /* media query */
-@media only screen and (min-width:768px){
+@media only screen and (max-width:768px){
     .cta{
         font-size: 2.5rem;
         padding: 20px 60px;
@@ -520,6 +520,13 @@ img{
     h1.section-title{font-size: 6rem;}
  /* hero */
     #hero h1{font-size: 7rem;}
+    #hero{
+        background-image: url(kcp2.gif);
+        background-size: cover; 
+        background-position: top center;
+        position: relative;
+        /* z-index: 1; */
+    }
 
 /* header */
 

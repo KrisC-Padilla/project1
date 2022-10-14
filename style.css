@@ -408,8 +408,8 @@ END OF HERO SECTION */
     #about .about .col-left .about-img::after{
         /* left: -45px;
         top: 34px; */
-        height: 25%;
-        width: 25%;
+        height: 50px;
+        width: 50px;;
         border: 1px solid crimson;
 }
     #about .col-right{

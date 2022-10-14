@@ -570,18 +570,12 @@ img{
 
 /* media query */
 @media only screen and (min-width:768px){
-    .cta{
-        font-size: 2.5rem;
-        padding: 20px 60px;
-    }
+   
     h1.section-title{font-size: 6rem;}
  /* hero */
     #hero h1{font-size: 7rem;}
-    /* #hero .nav-list{display: none;} */
+    #hero .nav-list{display: none;}
     
-
-/* header */
-
   
 /* services section */
     .services .service-button .service-item{
@@ -623,8 +617,7 @@ img{
     } 
 #about .col-right h1{text-align:  left;}
 
-/* end of about section */
-
+}
 
 /* media query for tablet */
     @media only screen and (min-width: 768px){
@@ -655,7 +648,7 @@ img{
     /* end of project */
     /* about */
     /* end of about */
-
+    }
 /* media query desktop */
     @media only screen and (min-width: 1200px){
     #header .nav-list ul{
@@ -672,4 +665,3 @@ img{
     flex-basis: 22%;
     margin: 1.5%;}
 }
-}}

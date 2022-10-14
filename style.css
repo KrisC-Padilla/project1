@@ -374,7 +374,7 @@ END OF HERO SECTION */
  /* hero */
     #hero h1{font-size: 7rem;}
     #header .nav-list{display: none;}
-    
+    #hero{background-image: url('kcplogomobile.gif');}
   
 /* services section */
     .services .service-button .service-item{
@@ -382,10 +382,10 @@ END OF HERO SECTION */
         margin: 2.5%;
     }
 /* projects */
-    #projects .project-item{flex-direction:column;}
-    #projects .project-item:nth-child(even){flex-direction:column-reverse;}
+    #projects .project-item{flex-direction:row;}
+    #projects .project-item:nth-child(even){flex-direction:row-reverse;}
     #projects .project-item{
-        height: 200px;
+        height: 400px;
         margin: 0;
         width: 100%;
         border-radius: 0;

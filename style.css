@@ -34,7 +34,7 @@ img{
 #header .header{
     min-height: 8vh;
     background-color:black;
-    /* transition: .3s ease background-color; */
+    transition: .3s ease background-color;
 }
 #header .nav-bar{
     display: flex;

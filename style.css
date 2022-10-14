@@ -37,7 +37,7 @@ img{
     background-color:black;
     transition: .3s ease background-color;
 }
-#header .nav-bar{
+/* #header .nav-bar{
     display: flex;
     align-items: left;
     justify-content: space-between;
@@ -45,11 +45,11 @@ img{
     height: 100%;
     max-width: 1300px;
     padding: 0 10px;
-}
+} */
 
 #header .nav-list ul{
     list-style: none;
-    position: fixed;
+    position: absolute;
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -68,34 +68,6 @@ img{
     padding: 20px;
     display: block;
 }
-#header .nav-list ul{
-    list-style: none;
-    position:absolute;
-    background-color: rgba(31, 30, 30);
-    width: 100vw;
-    height: 100vh;
-    left: 100;
-    top: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    z-index: 1;
-    overflow-x: hidden;
-    transition: 0.5s ease left;
-} */
-#header .nav-list ul:active{left:0;}
-#header .nav-list ul a{
-    font-size: 2.5rem;
-    font-weight: 500;
-    letter-spacing: 0.2rem;
-    text-decoration: none;
-    color: white;
-    text-transform: uppercase;
-    padding: 20px;
-    display: block;
-}
-
 #header .nav-list  ul li:hover a{color: crimson;}
 
 

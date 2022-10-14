@@ -44,27 +44,18 @@ Use the built-in continuous integration in GitLab.
 
 ***
 
-# Editing this README
-
-When you're ready to make this README your own, just edit this file and use the handy template below (or feel free to structure it however you want - this is just a starting point!).  Thank you to [makeareadme.com](https://www.makeareadme.com/) for this template.
-
-## Suggestions for a good README
-Every project is different, so consider which of these sections apply to yours. The sections used in the template are suggestions for most open source projects. Also keep in mind that while a README can be too long and detailed, too long is better than too short. If you think your README is too long, consider utilizing another form of documentation rather than cutting out information.
-
 ## Name
-This project is my Portfoli as WEb Developer. Created with HTML, CSS and JS
+This project is a Portfolio of all the services and projects created bu the author.
 
 ## Description
-This site lets you see the different services I offer, portfolio of the projects I created, a link to contact me for futere collaborations
-and a little something about myself.
-
-For inquiries, you may e-mail me at : kriscapadilla@gmail.com
+Created using HTML, CSS and JS.
 
 ## Authors and acknowledgment
-Show your appreciation to those who have contributed to the project.
+I would like to thank all the people who have helped me with this project. Special mention to Uplift Code Camp mentors Sir JC and Master Pabs. 
+Thank you for the patience and sharing the knowledge you have. I appreciate all of this.
 
 ## License
 For open source projects, say how it is licensed.
 
 ## Project status
-If you have run out of energy or time for your project, put a note at the top of the README saying that development has slowed down or stopped completely. Someone may choose to fork your project or volunteer to step in as a maintainer or owner, allowing your project to keep going. You can also make an explicit request for maintainers.
+Deployed and site is live.

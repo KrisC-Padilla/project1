@@ -648,7 +648,7 @@ img{
     /* end of project */
     /* about */
     /* end of about */
-    }
+}
 /* media query desktop */
     @media only screen and (min-width: 1200px){
     #header .nav-list ul{
@@ -665,3 +665,4 @@ img{
     flex-basis: 22%;
     margin: 1.5%;}
 }
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                

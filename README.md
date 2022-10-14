@@ -53,8 +53,5 @@ Created using HTML, CSS and JS.
 ## Authors and acknowledgment
 KCPadilla
 
-## License
-For open source projects, say how it is licensed.
-
 ## Project status
 Deployed and site is live.

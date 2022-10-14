@@ -386,19 +386,19 @@ END OF HERO SECTION */
         margin: 2.5%;
     }
 /* projects */
-    #projects .project-item{flex-direction:row;}
-    /* #projects .project-item:nth-child(even){flex-direction:row-reverse;}
+    /* #projects .project-item{flex-direction:row;}
+    #projects .project-item:nth-child(even){flex-direction:row-reverse;}
     #projects .project-item{
         height: 400px;
         margin: 10;
         width: 60%;
-        border-radius: 0; */
+        border-radius: 0;
 }
     #projects .all-projects .project-info{width:250px}
-    #projects .all-projects .project-img{display:none}
+    #projects .all-projects .project-img{display:none} */
 
 /* start of about section */
-    #about .about{flex-direction: column;}
+    /* #about .about{flex-direction: column;}
 
     #about .col-left{
         width: 600px;
@@ -416,7 +416,7 @@ END OF HERO SECTION */
         text-align: left;
         padding: 20px;
     } 
-#about .col-right h1{text-align:  left;}
+#about .col-right h1{text-align:  left;} */
 
 
 /* media query for tablet */

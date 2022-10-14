@@ -385,38 +385,7 @@ END OF HERO SECTION */
         flex-basis: 35%;
         margin: 2.5%;
     }
-/* projects */
-    /* #projects .project-item{flex-direction:row;}
-    #projects .project-item:nth-child(even){flex-direction:row-reverse;}
-    #projects .project-item{
-        height: 400px;
-        margin: 10;
-        width: 60%;
-        border-radius: 0;
-}
-    #projects .all-projects .project-info{width:250px}
-    #projects .all-projects .project-img{display:none} */
 
-/* start of about section */
-    /* #about .about{flex-direction: column;}
-
-    #about .col-left{
-        width: 600px;
-        height: 400px;
-        padding-left: 60px;
-    }
-    #about .about .col-left .about-img::after{
-        left: -45px;
-        top: 34px;
-        height: 50px;
-        width: 50px;;
-        border: 1px solid crimson;
-}
-    #about .col-right{
-        text-align: left;
-        padding: 20px;
-    } 
-#about .col-right h1{text-align:  left;} */
 
 
 /* media query for tablet */

@@ -375,7 +375,7 @@ END OF HERO SECTION */
     #hero h1{font-size: 7rem;}
     #header .nav-list{display: none;}
     #hero{background-image: url('kcplogomobile.gif');
-        background-size: auto;
+        background-size:50%;
     }
   
 /* services section */

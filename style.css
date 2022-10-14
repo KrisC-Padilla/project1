@@ -476,7 +476,8 @@ img{
     h2.section-title{font-size: 6rem;}
     /* hero */
     #hero h1{font-size: 7rem;}
-    #hero {background-image: url('kcpmobilelogo.png');}
+
+    #header .nav-list{display: none;}
     
     /* end of hero */
     /* service section */

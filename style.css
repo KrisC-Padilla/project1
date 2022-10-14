@@ -373,7 +373,7 @@ END OF HERO SECTION */
     h1.section-title{font-size: 6rem;}
  /* hero */
     #hero h1{font-size: 7rem;}
-    #hero .nav-list{display: none;}
+    #header .nav-list{display: none;}
     
   
 /* services section */
@@ -382,16 +382,16 @@ END OF HERO SECTION */
         margin: 2.5%;
     }
 /* projects */
-    #projects .project-item{flex-direction:row;}
-    #projects .project-item:nth-child(even){flex-direction:row-reverse;}
+    #projects .project-item{flex-direction:column;}
+    #projects .project-item:nth-child(even){flex-direction:column-reverse;}
     #projects .project-item{
         height: 200px;
         margin: 0;
-        width: 50%;
+        width: 100%;
         border-radius: 0;
 }
-    #projects .all-projects .project-info{height: 50%;}
-    #projects .all-projects .project-img{height: 50%;}
+    #projects .all-projects .project-info{height: 100%;}
+    #projects .all-projects .project-img{height: 100%;}
 
 /* start of about section */
     #about .about{flex-direction: column;}

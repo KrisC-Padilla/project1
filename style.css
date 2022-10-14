@@ -236,12 +236,6 @@ img{
     margin: 0 auto;
     padding: 100px 20;
 }
-#services .service container2{
-    flex-direction: column;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 100px 20;
-}
 .section-title{
     font-size: 4rem;
     font-weight: 300;
@@ -261,14 +255,25 @@ img{
 }
 #services .service-bottom{
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
     margin-top: 2px;
 }
-
 #services .service-item{
+    flex-basis: 80%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+    background-color:#485563;
+    background-size: cover;
+    margin: 10px 5%;
+    position:relative;
+    z-index: 1;
+}
+#services .service-items{
     flex-basis: 80%;
     display: flex;
     align-items: flex-start;

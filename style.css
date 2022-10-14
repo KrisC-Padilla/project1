@@ -567,33 +567,6 @@ img{
 /* -------------------------------------------------------------------------------------------------------------------------------------------- */
 
 
-/* keyframes for animation */
-/* @keyframes text_reveal_box {
-    50%{
-        width: 100%;
-        left: 0;
-    }
-    100%{
-        width: 0;
-        left: 100%;
-    }  
-}
-@keyframes text_reveal{
-    100%{
-        color:white;
-}
-} */
-/* @keyframes hamburger_pulse{
-    0%{
-        opacity: 1;
-        transform: scale(1);
-    }
-    100%{
-        opacity: 0;
-        transform: scale(1.3);
-    }
-} */
-
 
 /* media query */
 @media only screen and (min-width:768px){
@@ -602,14 +575,11 @@ img{
         padding: 20px 60px;
     }
     h1.section-title{font-size: 6rem;}
- /* hero */
+
     #hero h1{font-size: 7rem;}
     /* #hero .nav-list{display: none;} */
     
 
-/* header */
-
-  
 /* services section */
     .services .service-button .service-item{
         flex-basis: 45%;
@@ -622,12 +592,10 @@ img{
         height: 400px;
         margin: 0;
         width: 100%;
-        border-radius: 0;
+     
 }
     #projects .all-projects .project-info{height: 100%;}
-    #projects .all-projects .project-img{
-        height: 100%;
-}
+    #projects .all-projects .project-img{height: 100%;}
 
 /* start of about section */
     #about .about{flex-direction: column;}
@@ -649,39 +617,7 @@ img{
         padding: 30px;
     } 
 #about .col-right h1{text-align:  left;}
-
-/* end of about section */
-
-
-/* media query for tablet */
-    @media only screen and (min-width: 768px){
-    .cta{
-        font-size: 2.5rem;
-        padding: 20px 60px;
-    }
-    h2.section-title{font-size: 6rem;}
-    /* hero */
-    #hero h1{font-size: 7rem;}
-    
-    /* end of hero */
-    /* service section */
-    #services .service-bottom .service-item{
-        flex-basis: 45%;
-        margin: 2.5%;
-    }
-    /* end of service section */
-    /* project */
-    #project .project-item{
-        height: 400px;
-        margin: 0;
-        width: 100%;
-        border-radius: 0;
-    }
-    #projects .align-self .project-info{height:100%;}
-    #projects .align-self .project-img{height:100%;}
-    /* end of project */
-    /* about */
-    /* end of about */
+}
 
 /* media query desktop */
     @media only screen and (min-width: 1200px){
@@ -699,4 +635,3 @@ img{
     flex-basis: 22%;
     margin: 1.5%;}
 }
-}}

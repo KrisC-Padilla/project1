@@ -230,7 +230,7 @@ img{
 /* END OF HERO SECTION */
 
 /* START OF SERVICE SECTION  */
-#services .service container{
+#services .service{
     flex-direction: column;
     max-width: 1200px;
     margin: 0 auto;
@@ -286,18 +286,6 @@ img{
     position:relative;
    
 }
-/* this is for the overlay - used z-index for this*/
-/* #services .service-item::after{
-    content: '';
-    position: absolute;
-    left:0;
-    top:0;
-    height: 100%;
-    width: 100%;
-    background-color: #485563;
-    opacity: .8;
-    z-index: -1;
-} */
 #services .service-bottom .icon{
     height: 80px;
     width: 80px;
@@ -327,93 +315,7 @@ img{
 
 
 
-/* tech section */
 
-#technologies .tech container{
-    flex-direction: column;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 100px 20;
-}
-.section-title{
-    font-size: 4rem;
-    font-weight: 300;
-    color: black;
-    margin: 10px;
-    text-transform: uppercase;
-    letter-spacing: .2rem;
-    text-align: center;
-}
-/* span for the crimson letter I */
-.section-title span{
-    color: crimson;
-}
-#technologies .tech-top{
-    padding: 100px 0;
-}
-#technologies .tech-bottom{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    margin-top: 2px;
-}
-#technologies .tech-item{
-    flex-basis: 80%;
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    flex-direction: column;
-    padding: 20px;
-    background-color:#485563;
-    background-size: cover;
-    margin: 10px 5%;
-    position:relative;
-    z-index: 1;
-}
-#technologies .tech-items{
-    flex-basis: 80%;
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    flex-direction: row;
-    padding: 20px;
-    background-color:#485563;
-    background-size: cover;
-    margin: 10px 5%;
-    position:relative;
-    z-index: 1;
-}
-#technologies .tech-bottom .icon{
-    height: 80px;
-    width: 80px;
-    margin-bottom:20px;
-}
-#technologies .tech-item h2{
-    font-size: 2rem;
-    color: white;
-    margin-bottom: 10px;
-    text-decoration: uppercase;
-}
-#technologies .tech-item p{
-    color:white;
-    text-align: left;
-    font-size: 1.4rem;
-    line-height: 1.5rem;
-    text-align: justify;
-}
-
-#technologies .tech-bottom .icon{
-    height: 80px;
-    width: 80px;
-    margin-bottom:20px;
-}
-#technologies .tech-items h2{
-    font-size: 2rem;
-    color: white;
-    margin-bottom: 10px;
-    text-decoration: uppercase;
-}
 
 /* projects section */
 #projects .projects{
@@ -439,7 +341,7 @@ img{
     width: 80%;
     margin: 20px auto;
     overflow: hidden;
-    border-radius: 10px;
+
     
 }
 #projects .project-info{
